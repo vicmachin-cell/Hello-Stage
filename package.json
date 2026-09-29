@@ -1,0 +1,16 @@
+{
+  "name": "hello-stage-cloudflare",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "agents": "latest"
+  },
+  "devDependencies": {
+    "wrangler": "latest"
+  }
+}
